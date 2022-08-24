@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    padding: 10px 250px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+
+}
+
+.header h3 {
+    font-size: 22px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+}
