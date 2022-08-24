@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+
+/** Header section **/
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -36,4 +40,65 @@ a {
 
 a:hover {
     color: rgb(143, 203, 255);
+}
+
+/** Hero Section **/
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 250px;
+    background-color: #1f2937;
+    color: white;
+
+
+}
+
+.hero-txt{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 400px;
+}
+
+.hero-txt button {
+    max-width: 150px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 15px;
+}
+
+.hero-txt h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-txt p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-txt h1, p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hero-img {
+}
+
+.hero-img img {
+    max-width: 450px;
+    border-radius: 20px;
 }
