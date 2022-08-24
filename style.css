@@ -131,6 +131,7 @@ a:hover {
     flex-direction: column;
     max-width: 200px;
     text-align: center;
+    font-weight: 400;
 }
 
 .card img {
