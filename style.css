@@ -227,3 +227,13 @@ a:hover {
 
 
 /** footer section **/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 20px;
+}
