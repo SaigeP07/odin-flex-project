@@ -58,6 +58,7 @@ a:hover {
     padding: 80px 250px;
     background-color: #1f2937;
     color: white;
+    gap: 50px;
 
 
 }
@@ -101,6 +102,10 @@ a:hover {
 .hero-img img {
     max-width: 450px;
     border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 300px;
 }
 
 
@@ -172,6 +177,53 @@ a:hover {
     margin-left: auto;
 }
 
+/** cta section **/
+
+.cta-container {
+    padding: 100px 250px;
+
+}
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 50px;
+    font-size: 18px;
+    gap: 40px;
+}
+
+.cta-txt {
+    color: #e5e7eb;
+    max-width: 500px;
+    margin-right: auto;
+}
+
+.cta-btn button {
+    display: flex;
+    flex: 1 0 auto;
+    padding: 0px 0px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.cta-btn button:hover {
+    border: 3px solid #1f2937;
+}
+.cta-btn a {
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+.cta-btn a:hover {
+    color: #1f2937;
+}
 
 
-    
+/** footer section **/
