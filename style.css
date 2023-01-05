@@ -7,6 +7,9 @@ body {
 
 /** Header section **/
 
+span {
+    transform: translateY(5px);
+}
 
 .header {
     display: flex;
@@ -20,6 +23,9 @@ body {
 }
 
 .header h3 {
+
+    font-family: 'Quantico', sans-serif;
+    font-style: italic;
     font-size: 22px;
 }
 
