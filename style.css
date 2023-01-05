@@ -114,7 +114,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 350px;
+    padding: 40px 10%;
     gap: 20px;
     row-gap: 30px;
 }
