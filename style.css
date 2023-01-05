@@ -96,7 +96,11 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+.hero-img {
+    display: flex;
+    margin: auto;
+    min-width: 150px;
+}
 .hero-img img {
     max-width: 450px;
     border-radius: 20px;
