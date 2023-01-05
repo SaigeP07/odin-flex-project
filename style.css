@@ -236,3 +236,15 @@ a:hover {
     color: #f9faf8;
     font-size: 20px;
 }
+
+
+/** media queries **/
+@media screen and (max-width: 600px){
+    .hero-txt h1 {
+        font-size: 30px;
+    }
+    .hero-txt p {
+        font-size: 12px;
+    }
+    
+}
