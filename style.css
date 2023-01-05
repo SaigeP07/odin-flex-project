@@ -246,5 +246,10 @@ a:hover {
     .hero-txt p {
         font-size: 12px;
     }
-    
+    .quote h2 {
+        font-size: 24px;
+    }
+    .quote p {
+        font-size: 15px;
+    }
 }
