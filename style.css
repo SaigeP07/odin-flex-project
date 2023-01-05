@@ -55,7 +55,7 @@ a:hover {
 .hero-section {
     display: flex;
     justify-content: space-between;
-    padding: 80px 250px;
+    padding: 80px 10%;
     background-color: #1f2937;
     color: white;
     gap: 50px;
@@ -79,6 +79,7 @@ a:hover {
     background-color: #3882f6;
     color: white;
     font-size: 15px;
+    margin-top: 30px;
 }
 
 .hero-txt h1 {
