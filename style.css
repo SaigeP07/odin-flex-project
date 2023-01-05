@@ -251,6 +251,12 @@ a:hover {
     .hero-txt p {
         font-size: 12px;
     }
+    .info h2 {
+        font-size: 20px;
+    }
+    .card p {
+        font-size: 13px;
+    }
     .quote h2 {
         font-size: 24px;
     }
