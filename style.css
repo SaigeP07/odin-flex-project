@@ -100,6 +100,7 @@ a:hover {
     display: flex;
     margin: auto;
     min-width: 150px;
+    margin-right: 0%;
 }
 .hero-img img {
     max-width: 450px;
@@ -107,7 +108,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    min-width: 250px;
+    min-width: 5px;
 }
 
 
@@ -255,5 +256,14 @@ a:hover {
     }
     .quote p {
         font-size: 15px;
+    }
+    .cta h3 {
+        font-size: 17px;
+    }
+    .cta p {
+        font-size: 12px;
+    }
+    .cta-btn a {
+        font-size: 14px;
     }
 }
