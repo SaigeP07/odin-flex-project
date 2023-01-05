@@ -34,6 +34,8 @@ ul {
     flex-direction: row;
     gap: 16px;
     list-style: none;
+    font-family: 'Quantico', sans-serif;
+    font-weight: bold;
 }
 
 a {
