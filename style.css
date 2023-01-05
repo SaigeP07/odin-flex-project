@@ -64,10 +64,10 @@ a:hover {
 .hero-section {
     display: flex;
     justify-content: space-between;
-    padding: 80px 10%;
+    padding: 10% 10%;
     background-color: #ffe240;
     color: white;
-    gap: 50px;
+    gap: 25px;
 
 
 }
@@ -85,13 +85,14 @@ a:hover {
     padding: 10px 5px;
     border: none;
     border-radius: 20px;
-    background-color: #ffe96b;
+    background-color: #5e6effb4;
     border: 2px solid black;
-    color: rgb(255, 237, 75);
+    color:#bdc5ff;
     font-size: 15px;
     margin-top: 30px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
+    box-shadow: 2px 2px 5px black;
 }
 
 .hero-txt h1 {
@@ -99,6 +100,8 @@ a:hover {
     color: #000000;
     font-family: 'Quantico', sans-serif;
     font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .hero-txt p {
@@ -111,6 +114,12 @@ a:hover {
 .hero-txt h1, p {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.hero-txt a {
+    color: #000000;
+}
+.hero-txt a:hover {
+    color: #f0f0f0;
 }
 .hero-img {
     display: flex;
@@ -125,6 +134,7 @@ a:hover {
     margin-right: auto;
     width: 100%;
     min-width: 5px;
+    box-shadow: 3px 3px 5px black;
 }
 
 
@@ -135,15 +145,16 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 10%;
+    padding: 7% 10%;
     gap: 20px;
     row-gap: 30px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
+    background-color: #374bffb4;
 }
 
 .info h2 {
-    font-size: 36px;
+    font-size: 40px;
     flex-shrink: 0;
     flex-grow: 1;
     flex-basis: 100%;
@@ -152,6 +163,20 @@ a:hover {
     font-weight: bold;
     font-family: 'Quantico', sans-serif;
     font-style: italic;
+    color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    margin: 2%
+
+}
+
+.info p {
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 15px;
 }
 
 .card {
@@ -165,8 +190,9 @@ a:hover {
 }
 
 .card img {
-    border: 3px solid rgba(0, 0, 0, 0.9);
-    border-radius: 10%;
+    border: 4px solid #f3e51e;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px black;
 }
 
 
@@ -182,9 +208,9 @@ a:hover {
     flex: 0 1 auto;
     font-size: 36px;
     font-style: italic;
-    background-color: #e5e7eb;
+    background-color: #b7d4ff;
     color: #1f2937;
-    padding: 80px 10%;
+    padding: 80px 30%;
 }
 
 .quote h2 {
@@ -193,6 +219,7 @@ a:hover {
     flex-basis: 100%;
     font-size: 36px;
     font-weight: 200;
+    color: #1d235fb4
 }
 
 .quote p {
@@ -201,18 +228,20 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto Condensed', sans-serif;
+    color: #151d66b4;
 }
 
 /** cta section **/
 
 .cta-container {
     padding: 100px 10%;
+    background-color: #0045ac;
 
 }
 
 .cta {
     display: flex;
-    background-color: #3882f6;
+    background-color: #5e6effb4;
     border-radius: 7px;
     justify-content: center;
     align-items: center;
@@ -220,10 +249,11 @@ a:hover {
     padding: 30px 50px;
     font-size: 18px;
     gap: 40px;
+    box-shadow: 2px 2px 8px black;
 }
 
 .cta-txt {
-    color: #e5e7eb;
+    color: #bdc5ff;
     max-width: 500px;
     margin-right: auto;
     font-family: 'Roboto Condensed', sans-serif;
@@ -234,10 +264,11 @@ a:hover {
     flex: 1 0 auto;
     padding: 0px 0px;
     color: #e5e7eb;
-    background-color: #3882f6;
-    border: 3px solid white;
+    background-color: #ffe96b;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 8px;
     font-size: 18px;
+    box-shadow: 1px 1px 3px black;
 }
 
 .cta-btn button:hover {
@@ -260,25 +291,46 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding: 50px 0;
-    background-color: #1f2937;
-    color: #f9faf8;
+    background-color: #ffe240;
+    color: #000000;
     font-size: 20px;
 }
 
 
 /** media queries **/
 @media screen and (max-width: 600px){
+    .header a {
+        font-size: 10px;
+    }
+    .header h3 {
+        font-size: 15px;
+    }
     .hero-txt h1 {
-        font-size: 30px;
+        font-size: 20px;
+        color: #000000;
+        -webkit-text-stroke-width: 0px;
     }
     .hero-txt p {
         font-size: 12px;
     }
+    .hero-section button {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .hero-section a {
+        font-size: 10px;
+    }
     .info h2 {
-        font-size: 20px;
+        font-size: 30px;
+        color: #fff5bb;
+        -webkit-text-stroke-width: 1px;
     }
     .card p {
         font-size: 13px;
+    }
+    .quote {
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .quote h2 {
         font-size: 24px;
