@@ -81,7 +81,8 @@ a:hover {
 }
 
 .hero-txt button {
-    max-width: 150px;
+    max-width: 40%;
+    min-width: 80px;
     padding: 10px 5px;
     border: none;
     border-radius: 20px;
@@ -219,7 +220,7 @@ a:hover {
     flex-basis: 100%;
     font-size: 36px;
     font-weight: 200;
-    color: #1d235fb4
+    color: #1a1f55da
 }
 
 .quote p {
