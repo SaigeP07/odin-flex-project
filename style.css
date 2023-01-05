@@ -146,7 +146,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 7% 10%;
+    padding: 7% 10% 20%;
     gap: 20px;
     row-gap: 30px;
     font-family: 'Roboto Condensed', sans-serif;
